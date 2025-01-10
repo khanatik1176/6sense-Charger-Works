@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-search .ant-input,
+.custom-search .ant-btn {
+  border-radius: 3px !important; /* Remove border radius */
+}
+
+.custom-search .ant-btn-primary {
+  background-color: #005959 !important; /* Change button color */
+  border-color: var(--primary-color) !important; /* Change button border color */
+}
+
+.drawer-content {
+  height: calc(100% - 64px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.drawer-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 16px;
+  background: #fff;
+  position: sticky;
+  bottom: 0;
+}
+
+.DrawerBtn
+{
+  border-radius: 2px !important;
+}
+
+.DrawerBtn:hover {
+  border-color: #005959 !important ; /* Change border color on hover */
+  color: #005959 !important; /* Change text color on hover */
+}
+
+.ApplyBtn
+{
+  border-radius: 2px !important;
+  background-color: #005959 !important;
+  color: #fff !important;
+}
+
+.ant-drawer-body
+{
+  background-color: #f9f9f9 !important;
+}
+
+.CustomCheckbox
+{
+  padding-top: 10px
+}
+
+.ant-select-selector:hover
+{
+  border-color: #005959 !important;
+}
+
+.ant-picker-active-bar
+{
+  background-color: #005959 !important;
+}
+
+.ant-picker-range:hover
+{
+  border-color: #005959 !important;
+}
+
+.ant-checkbox-inner
+{
+  border-radius: 1px !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #005959 !important;
+  border-radius: 1px !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:hover {
+  background-color: #005959 !important;
+  border-radius: 1px !important;
+}
+
+
+.ant-checkbox:hover 
+{
+  border-color: #005959 !important;
+  background-color: #005959 !important;
+
+}
+
+.ant-checkbox-inner:hover
+{
+  border-color: #005959 !important;
+}
+
+.ant-tag
+{
+  
+  height: 24px !important;
+}
